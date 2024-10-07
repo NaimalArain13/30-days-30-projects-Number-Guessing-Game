@@ -4,14 +4,14 @@ import { Button } from "./button";
 import { Input } from "./input";
 
 //define type
-interface GuessingGame {
-    gameStart:boolean,
-    gameOver:boolean,
-    gamePause:boolean,
-    tagretNumber:number,
-    attempt:number,
-    userGuess:number|string
-}
+// interface GuessingGame {
+//     gameStart:boolean,
+//     gameOver:boolean,
+//     gamePause:boolean,
+//     tagretNumber:number,
+//     attempt:number,
+//     userGuess:number|string
+// }
 
 export default function NumberGuessingGame(){
     //states
